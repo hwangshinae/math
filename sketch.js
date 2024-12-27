@@ -9,11 +9,10 @@ function degreeToRad(degree) {
   return (degree * Math.PI) / 180;
 }
 
-for (i = 0; i < 100; i++) {
-  function draw() {
+ function draw() {
     background('black');
     translate(width / 2, height / 2);
-    degree = degree + 10;
+    degree = degree + 1;
     /*fill('white');
     circle(size * degreeToRad(degree), -size / 2, 40);
 
@@ -29,5 +28,4 @@ for (i = 0; i < 100; i++) {
 
     fill('yellow');
     circle(200 * Math.cos(degreeToRad(i)), 200 * Math.sin(degreeToRad(i)), 10);
-  }
 }
