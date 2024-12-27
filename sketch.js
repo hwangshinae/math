@@ -27,5 +27,5 @@ function degreeToRad(degree) {
     circle(0, 0, 200);
 
     fill('yellow');
-    circle(200 * Math.cos(degreeToRad(i)), 200 * Math.sin(degreeToRad(i)), 10);
+    circle(120 * Math.cos(degreeToRad(degree)), 120 * Math.sin(degreeToRad(degree)), 40);
 }
