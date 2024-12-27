@@ -13,8 +13,8 @@ for (i = 0; i < 100; i++) {
   function draw() {
     background('black');
     translate(width / 2, height / 2);
-    /* degree = degree + 10;
-    fill('white');
+    degree = degree + 10;
+    /*fill('white');
     circle(size * degreeToRad(degree), -size / 2, 40);
 
     fill('yellow');
