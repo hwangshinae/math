@@ -2,6 +2,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   size = 20;
   degree = 0;
+  let radi = 150; //원의 반지름
 
   let p = createP('시작점');
   p.position(1030, 360);
@@ -33,7 +34,7 @@ function draw() {
   background(255, 255, 255);
   translate(width / 2, height / 2);
 
-  let radi = 250; //원의 반지름
+  
   circle(0, 0, radi * 2);
 
   stroke('blue');
